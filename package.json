@@ -1,0 +1,24 @@
+{
+  "name": "debot",
+  "version": "1.0.0",
+  "description": "DeBot - Your Versatile Multipurpose Slack Bot! Handles 3D printing monitoring, commit message enhancement, and error analysis all in one friendly package! 🚀",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Deployor",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.13.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "node-persist": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
